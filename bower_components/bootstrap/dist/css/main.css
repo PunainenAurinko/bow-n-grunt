@@ -1,0 +1,30 @@
+body {
+    background: white;
+}
+
+header,
+footer {
+    height: 5rem;
+    background: purple;
+}
+
+i {
+    color: white;
+}
+
+main {
+    height: 36rem;
+}
+
+figure:first-of-type {
+    margin-top: 5rem;
+    margin-left: 8.2rem;
+}
+
+img {
+    width: 85%;
+}
+
+div {
+    margin-top: 3rem;
+}
