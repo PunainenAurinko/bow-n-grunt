@@ -1,28 +1,13 @@
 {
-  "name": "website-project",
-  "version": "1.0.0",
-  "description": "basic html site to demonstrate grunt functionality",
-  "main": "main.js",
-  "scripts": {
-    "test": "loadNpmTasks"
+  "engines": {
+    "node": ">= 0.10.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tonk0006/bow-n-grunt.git"
-  },
-  "keywords": [
-    "grunt",
-    "bower",
-    "init",
-    "tasks",
-    "automation",
-    "uglify",
-    "minify"
-  ],
-  "author": "Vladimir V. Tonkonogov",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tonk0006/bow-n-grunt/issues"
-  },
-  "homepage": "https://github.com/tonk0006/bow-n-grunt#readme"
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-qunit": "~0.5.2",
+    "grunt-contrib-concat": "~0.4.0",
+    "grunt-contrib-uglify": "~0.5.0"
+  }
 }
